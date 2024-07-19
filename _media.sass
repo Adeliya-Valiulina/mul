@@ -1,0 +1,213 @@
+@media (min-width:2151px)
+  .anons
+    &-button
+      display: none
+@media (max-width:1200px)
+  .nav
+    &-list
+      padding-top: 36px
+      flex-direction: column
+      margin-bottom: 36px
+      &__item
+        margin: 0
+        margin-bottom: 32px
+      &__link
+        font-size: 24px
+
+    &_mobile
+      &_fixed
+        top: 36px
+        left: 0
+        right: 0
+        position: fixed !important
+    &-logo
+      &__fixed
+        width: 32px
+        height: 32px
+    &-hamburger
+      display: block
+      z-index: 10000
+    &-mobile
+      padding: 0 64px 0 64px
+      display: none
+      flex-direction: column
+      justify-content: start
+      background-color: #DCE1F5
+      position: fixed
+      top: 60px
+      left: 0
+      right: 0
+      bottom: 0
+      z-index: 50000
+      height: 100vh
+      width: 100%
+      &__fixed
+        position: fixed
+        top: 0
+        right: 0
+        left: 0
+    &-button
+      width: 100%
+      margin-bottom: 16px
+    &-buttons
+      display: flex
+      flex-direction: column
+
+    &-wrapper
+      padding-top: 12px
+      padding-bottom: 16px
+      margin-left: 0
+  .main
+    height: 1115px
+    border-radius: 0 0 32px 32px
+    &-wrap
+      margin-top: 240px
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      text-align: center
+    &-title
+      margin-top: 24px
+    &-image
+      max-width: 706px
+    &-body
+      margin-bottom: 100px
+    &-img
+      left: 0
+      bottom: 30px
+      position: relative
+
+    &-wrapper
+      max-width: 398px
+      margin-left: 0
+      display: flex
+      flex-direction: column
+      align-items: center
+    &-title
+      font-size: 36px
+      max-width: 398px
+  .distribution
+    &-wrapper
+      background-position: -350%
+  .footer
+    &-link
+      width: 207px
+  .anons
+    width: 100vw
+    &-popup
+      &__wrapper
+        left: 43%
+  .logos
+    &-wrapper
+      display: none
+    &-swiper
+      display: flex !important
+    //   &__slide
+    //     width: 345px !important
+    //     margin-right: 16px !important
+  .timeline
+    padding: 96px 0 96px 0
+    &-wrapper
+      flex-direction: column
+      &::before, &::after
+        display: none
+    &-grid
+      display: flex
+      flex-direction: column
+      &::before, &::after
+        display: none
+    &-desc
+      margin-top: 0
+      margin-bottom: 36px
+    &-block
+      padding: 24px
+      &::before
+        top: 10px
+        left: 50%
+      &__title
+        font-size: 20px
+  .tickers
+    top: 100px
+  .about
+    &-wrapper
+      flex-direction: column-reverse
+      align-items: flex-start
+    &-desc
+      margin-bottom: 48px
+      &-button
+    &-player
+      width: 100%
+      height: 706px
+      margin: 0
+      padding: 24px
+      display: flex
+      justify-content: end
+      background-size: 706px 706px
+    &-button
+      display: none
+      &__mobile
+        display: block !important
+
+        background-image: url(../img/play.svg)
+        background-repeat: no-repeat
+        background-position: center
+        background-size: 10px
+
+  .anons
+    width: 100vw
+  body
+    width: 100vw
+  .container
+    margin-right: 64px
+    margin-left: 64px
+  .aos-animate
+
+    -o-transition-property: none !important
+    -moz-transition-property: none !important
+    -ms-transition-property: none !important
+    -webkit-transition-property: none !important
+    transition-property: none !important
+
+    -o-transform: none !important
+    -moz-transform: none !important
+    -ms-transform: none !important
+    -webkit-transform: none !important
+    transform: none !important
+
+    -webkit-animation: none !important
+    -moz-animation: none !important
+    -o-animation: none !important
+    -ms-animation: none !important
+    animation: none !important
+
+@media (max-width:992px)
+  .logos
+    &-swiper
+      &__slide
+        width: 49% !important
+
+@media (max-width: 768px)
+
+@media (max-width: 576px)
+  .about
+    &-player
+      background-size: 342px
+      max-height: 342px
+  .nav
+    &_mobile
+      &_fixed
+        top: 0
+  .container
+    margin-right: 24px
+    margin-left: 24px
+
+  .anons
+    display: none
+
+  .logos
+    &-swiper
+      &__slide
+        min-width: 100%
+
+@media (max-width: 380px)

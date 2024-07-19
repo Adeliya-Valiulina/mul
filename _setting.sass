@@ -1,0 +1,102 @@
+*
+  box-sizing: border-box
+html, body
+  // scrollbar-gutter: stable
+  
+
+body
+  font-family: "Outfit", sans-serif
+  font-weight: 400
+  margin: 0
+  padding: 0
+  position: relative
+  overflow-x: hidden
+  height: 100%
+  width: calc(100vw - 17px)
+  z-index: 1
+  background-color: #E6EBFF
+  color: #1F242C
+  ::selection
+    color: #15ACCE
+
+.container
+  max-width: 1192px
+  margin: auto
+ul, li
+  list-style-type: none
+  margin: 0
+  padding: 0
+a
+  text-decoration: none
+  color: #1F242C
+a:active
+  color: #35CAEC
+h1, h2, h3, p
+  margin: 0
+  padding: 0
+h1, h2, h3
+  text-transform: lowercase
+button
+  cursor: pointer
+  font-family: "Outfit"
+  font-weight: 500
+  border: none
+  outline: 1px solid #1F242C
+  transition: ease .3s
+  -moz-user-select: none
+  -webkit-user-select: none
+  -ms-user-select: none
+  -o-user-select: none
+  user-select: none
+
+img
+  width: 100%
+  height: 100%
+.blocks
+  display: flex
+.block
+  width: 700px
+  height: 300px
+  background-color: #1F242C
+  margin-right: 60px
+.blue
+  background-color: #4FDFFF !important
+  &:hover
+    background-color: #35CAEC !important
+
+.grey
+  background-color: #E6EBFF !important
+  color: #1F242C !important
+  &:hover
+    background-color: #DCE1F5 !important
+  
+  &-span
+    color: #AAB9D0
+    font-size: 14px
+    font-weight: 500
+    line-height: 100%
+
+.blue-block
+  background-color: #4FDFFF !important
+  outline: 1px solid #1F242C
+
+.jcsb
+  justify-content: space-between
+  height: 312px
+
+.play-grey
+  color: #AAB9D0
+  pointer-events: none
+  &:hover
+    color: #1F242C
+
+.uppercase
+  text-transform: uppercase
+.ytp-expand-pause-overlay .ytp-pause-overlay
+  opacity: 0 !important
+.inherit
+  background-color: inherit
+svg path 
+  fill: inherit
+  stroke: inherit
+  stroke-width: inherit
